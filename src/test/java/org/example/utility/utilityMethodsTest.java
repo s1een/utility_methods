@@ -38,4 +38,16 @@ class utilityMethodsTest {
         var result = utilityMethods.isEven(a);
         assertFalse(result);
     }
+    @Test
+    public void isOdd_shouldReturnFalse(){
+        int a = 2;
+        var result = utilityMethods.isOdd(a);
+        assertFalse(result);
+    }
+    @Test
+    public void isOdd_shouldReturnTrue(){
+        int a = 1;
+        var result = utilityMethods.isOdd(a);
+        assertTrue(result);
+    }
 }
