@@ -26,4 +26,16 @@ class utilityMethodsTest {
         var result = utilityMethods.multiply(a,b);
         assertEquals(2,result);
     }
+    @Test
+    public void isEven_shouldReturnTrue(){
+        int a = 2;
+        var result = utilityMethods.isEven(a);
+        assertTrue(result);
+    }
+    @Test
+    public void isEven_shouldReturnFalse(){
+        int a = 1;
+        var result = utilityMethods.isEven(a);
+        assertFalse(result);
+    }
 }
