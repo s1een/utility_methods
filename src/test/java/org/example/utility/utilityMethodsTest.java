@@ -19,4 +19,11 @@ class utilityMethodsTest {
         var result = utilityMethods.subtract(a,b);
         assertEquals(-1,result);
     }
+    @Test
+    public void mul_shouldMulTwoNumbers(){
+        int a = 1;
+        int b = 2;
+        var result = utilityMethods.multiply(a,b);
+        assertEquals(2,result);
+    }
 }
