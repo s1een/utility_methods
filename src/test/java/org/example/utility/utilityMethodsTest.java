@@ -12,5 +12,11 @@ class utilityMethodsTest {
         var result = utilityMethods.add(a,b);
         assertEquals(3,result);
     }
-
+    @Test
+    public void sub_shouldSubTwoNumbers(){
+        int a = 1;
+        int b = 2;
+        var result = utilityMethods.subtract(a,b);
+        assertEquals(-1,result);
+    }
 }
